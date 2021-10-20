@@ -17,7 +17,15 @@
     height: 100vh;
     background: #6fcf97;
     width: 16vw;
+    position: absolute;
+}
+
+.side2 {
+    height: 100vh;
+    background: #6fcf97;
+    width: 16vw;
     position: relative;
+    display: block;
 }
 
 .cont {
@@ -54,6 +62,14 @@
         width: 100vw;
         position: absolute;
         left: -58vh;
+    }
+
+    .side2 {
+        height: 100vh;
+        background: #6fcf97;
+        width: 16vw;
+        position: relative;
+        display: none;
     }
 
     .box {
