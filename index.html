@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">Title
+        <div class="ham" onclick="show()"><img src="./ham.png" alt=""></div>
+    </div>
+    <div class="main">
+        <div class="sidebar" id="side" onclick="hide()"></div>
+        <div class="cont">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <script>
+        let show = () => {
+            document.getElementById("side").style.left = "0";
+        }
+        let hide = () => {
+            document.getElementById("side").style.left = "-58vh";
+        }
+    </script>
+</body>
+
+</html>
